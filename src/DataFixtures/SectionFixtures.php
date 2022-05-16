@@ -15,7 +15,7 @@ class SectionFixtures extends Fixture
         // $product = new Product();
         // $manager->persist($product);
         $faker = FakerFactory::create();
-        for ($i=0; $i < 50; $i++) { 
+        for ($i=0; $i < 50; $i++) {
             $section = new Section();
             $section->setDesignation($faker->word);
             for ($j=0; $j < rand(1, 20); $j++) { 
